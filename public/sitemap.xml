@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://toolsjar.com/</loc>
+    <loc>https://toolsjar.online/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://toolsjar.com/image-compressor</loc>
+    <loc>https://toolsjar.online/image-compressor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsjar.com/qr-generator</loc>
+    <loc>https://toolsjar.online/qr-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsjar.com/password-generator</loc>
+    <loc>https://toolsjar.online/password-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsjar.com/json-formatter</loc>
+    <loc>https://toolsjar.online/json-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsjar.com/word-counter</loc>
+    <loc>https://toolsjar.online/word-counter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://toolsjar.com/color-palette</loc>
+    <loc>https://toolsjar.online/color-palette</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

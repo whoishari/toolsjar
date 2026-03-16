@@ -21,7 +21,7 @@ const routes = {
 
 function updateSEO(route, path) {
   document.title = route.title;
-  const baseUrl = 'https://toolsjar.com';
+  const baseUrl = 'https://toolsjar.online';
   const fullUrl = baseUrl + (path === '/' ? '' : path);
 
   const metaDesc = document.querySelector('meta[name="description"]');
