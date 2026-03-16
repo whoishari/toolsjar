@@ -82,6 +82,15 @@ function updateSEO(route, path) {
   };
   
   schemaScript.textContent = JSON.stringify(schemaData);
+
+  // Send pageview to Google Analytics for SPA route changes
+  if (typeof gtag === 'function') {
+    gtag('event', 'page_view', {
+      page_title: route.title,
+      page_location: fullUrl,
+      page_path: path
+    });
+  }
 }
 
 function getPath() {
