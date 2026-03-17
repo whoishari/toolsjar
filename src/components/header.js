@@ -18,6 +18,7 @@ export function renderHeader(currentPath) {
           <li><a href="/json-formatter" class="${currentPath === '/json-formatter' ? 'active' : ''}">JSON</a></li>
           <li><a href="/word-counter" class="${currentPath === '/word-counter' ? 'active' : ''}">Word Count</a></li>
           <li><a href="/color-palette" class="${currentPath === '/color-palette' ? 'active' : ''}">Colors</a></li>
+          <li><a href="/pdf-converter" class="${currentPath === '/pdf-converter' ? 'active' : ''}">PDF</a></li>
         </ul>
       </nav>
       <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button>

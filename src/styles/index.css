@@ -1020,3 +1020,123 @@ img {
 .strength-bar.active.medium { background: #f59e0b; }
 .strength-bar.active.strong { background: #10b981; }
 .strength-bar.active.very-strong { background: #06b6d4; }
+
+/* --- PDF Converter Specifics --- */
+.pdf-format-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: var(--space-md);
+}
+
+.pdf-format-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  color: var(--text-primary);
+}
+
+.pdf-format-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-glass-hover);
+}
+
+.pdf-format-btn.selected {
+  background: rgba(99, 102, 241, 0.1);
+  border-color: var(--accent-indigo);
+  box-shadow: 0 0 0 1px var(--accent-indigo);
+}
+
+.pdf-format-icon {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-xs);
+}
+
+.pdf-format-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.pdf-format-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.pdf-progress-container {
+  margin: var(--space-lg) 0;
+}
+
+.pdf-progress-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-sm);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.pdf-progress-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.pdf-progress-fill {
+  height: 100%;
+  background: var(--gradient-primary);
+  width: 0%;
+  transition: width 0.3s ease;
+  border-radius: var(--radius-full);
+}
+
+.pdf-image-result {
+  flex-direction: column !important;
+  align-items: stretch !important;
+  text-align: left !important;
+}
+
+.pdf-image-preview {
+  width: 100%;
+  background: #fff;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin-bottom: var(--space-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-xs);
+}
+
+.pdf-image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.pdf-image-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pdf-image-info .btn {
+  padding: var(--space-sm) var(--space-md);
+  font-size: 0.85rem;
+}
+
+.pdf-page-label {
+  font-weight: 600;
+}
+
+.pdf-size-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}

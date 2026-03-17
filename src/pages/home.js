@@ -56,6 +56,15 @@ const tools = [
     gradient: 'linear-gradient(135deg, #a855f7, #ec4899)',
     path: '/color-palette',
   },
+  {
+    id: 'pdf-converter',
+    name: 'PDF Converter',
+    description: 'Convert PDFs to Word (DOCX), extract text, or save pages as high-quality PNG/JPG images.',
+    icon: '📄',
+    tags: ['PDF', 'Converter', 'Document'],
+    gradient: 'linear-gradient(135deg, #ef4444, #f59e0b)',
+    path: '/pdf-converter',
+  },
 ];
 
 export function renderHome(container) {

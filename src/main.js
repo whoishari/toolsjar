@@ -8,6 +8,7 @@ import { renderPasswordGenerator } from './pages/password-generator.js';
 import { renderJSONFormatter } from './pages/json-formatter.js';
 import { renderWordCounter } from './pages/word-counter.js';
 import { renderColorPalette } from './pages/color-palette.js';
+import { renderPDFConverter } from './pages/pdf-converter.js';
 
 const routes = {
   '/': { render: renderHome, title: 'ToolsJar — Free Online Tools | Image Compressor, QR Generator & More', description: 'Free, fast, privacy-friendly online tools. Compress images, generate QR codes, create passwords, format JSON — all in your browser.', category: 'WebApplication' },
@@ -17,6 +18,7 @@ const routes = {
   '/json-formatter': { render: renderJSONFormatter, title: 'Free JSON Formatter & Validator — Pretty Print JSON | ToolsJar', description: 'Format, validate, and beautify JSON data instantly. Syntax highlighting, error detection — free online tool.', category: 'DeveloperApplication' },
   '/word-counter': { render: renderWordCounter, title: 'Free Word & Character Counter — Text Analysis | ToolsJar', description: 'Count words, characters, sentences, and paragraphs instantly. Reading time estimator included — free online tool.', category: 'UtilityApplication' },
   '/color-palette': { render: renderColorPalette, title: 'Free Color Palette Generator — Beautiful Color Schemes | ToolsJar', description: 'Generate harmonious color palettes with one click. Copy HEX, RGB, HSL values — free tool for designers.', category: 'DesignApplication' },
+  '/pdf-converter': { render: renderPDFConverter, title: 'Free PDF Converter — PDF to Word, Images, Text | ToolsJar', description: 'Convert PDF files to Word documents (DOCX), PNG/JPG images, or plain text. Free, fast, and runs entirely in your browser with zero server uploads.', category: 'UtilityApplication' },
 };
 
 function updateSEO(route, path) {
